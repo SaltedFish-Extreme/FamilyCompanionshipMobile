@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Activity 转场动画时间 -->
+    <integer name="activity_anim_duration">250</integer>
+
+    <!-- banner 切换时间 -->
+    <integer name="banner_toggle_duration">5000</integer>
+
+    <!-- 短信验证码的长度 -->
+    <integer name="sms_code_length">4</integer>
+</resources>

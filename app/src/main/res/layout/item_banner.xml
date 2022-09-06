@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><!--轮播图列表item-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/banner_picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="@dimen/dp_10"
+        android:contentDescription="@null"
+        tools:src="@drawable/bg_banner_card_woman" />
+
+    <TextView
+        android:id="@+id/banner_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/banner_desc"
+        android:layout_marginStart="@dimen/dp_25"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="@dimen/sp_20"
+        tools:text="@string/banner_title" />
+
+    <TextView
+        android:id="@+id/banner_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/dp_25"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="@dimen/sp_16"
+        tools:text="@string/banner_desc" />
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?><!--主页-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7ff"
+    tools:context=".ui.activity.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_home_top"
+        android:contentDescription="@null" />
+
+    <ImageView
+        android:id="@+id/iv_goto_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/dp_70"
+        android:layout_marginEnd="@dimen/dp_40"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/ic_home_top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_58"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_24"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/home_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_120"
+        android:text="@string/official_voice"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_20"
+        tools:ignore="RelativeOverlap" />
+
+    <com.youth.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_235"
+        android:layout_below="@id/home_tv1"
+        app:banner_loop_time="@integer/banner_toggle_duration" />
+
+    <TextView
+        android:id="@+id/home_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/banner"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_marginBottom="@dimen/dp_5"
+        android:text="@string/exclusive_voice"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="@dimen/sp_20" />
+
+    <com.drake.statelayout.StateLayout
+        android:id="@+id/state"
+        android:layout_width="@dimen/dp_408"
+        android:layout_height="@dimen/dp_226"
+        android:layout_below="@id/home_tv2"
+        android:layout_marginHorizontal="@dimen/dp_15"
+        android:background="@drawable/bg_home_rv">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dp_10"
+            tools:listitem="@layout/item_mould" />
+    </com.drake.statelayout.StateLayout>
+
+    <Button
+        android:id="@+id/add_voice"
+        android:layout_width="@dimen/dp_270"
+        android:layout_height="@dimen/dp_48"
+        android:layout_below="@id/state"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@drawable/bg_home_button"
+        android:text="@string/add_voice"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_20" />
+
+</RelativeLayout>

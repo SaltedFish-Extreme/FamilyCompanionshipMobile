@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><!--普通弹窗-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_corner4"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_edit_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="@string/message"
+        android:textColor="#333333"
+        android:textSize="@dimen/sp_24" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:layout_marginTop="@dimen/dp_8"
+        android:background="#FF666666" />
+
+    <TextView
+        android:id="@+id/tv_select_dialog_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_16"
+        android:paddingHorizontal="@dimen/dp_10"
+        android:text="@string/message"
+        android:textColor="#333333"
+        android:textSize="@dimen/sp_24" />
+
+    <TextView
+        android:id="@+id/tv_select_dialog_submsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="@dimen/dp_16"
+        android:textColor="#333333"
+        android:textSize="@dimen/sp_16" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/dp_15">
+
+        <TextView
+            android:id="@+id/tv_select_dialog_cancel"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp_36"
+            android:layout_margin="@dimen/dp_10"
+            android:layout_weight="1"
+            android:foreground="?selectableItemBackground"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="#007eff"
+            android:textSize="@dimen/sp_24" />
+
+        <TextView
+            android:id="@+id/tv_select_dialog_ok"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp_36"
+            android:layout_margin="@dimen/dp_10"
+            android:layout_weight="1"
+            android:foreground="?selectableItemBackground"
+            android:gravity="center"
+            android:text="@string/sure"
+            android:textColor="#007eff"
+            android:textSize="@dimen/sp_24" />
+    </LinearLayout>
+
+</LinearLayout>

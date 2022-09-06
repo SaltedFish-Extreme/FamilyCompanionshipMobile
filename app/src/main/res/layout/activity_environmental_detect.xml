@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><!--噪音检测页-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.EnvironmentalDetectActivity">
+
+    <ImageView
+        android:id="@+id/comeback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_66"
+        android:contentDescription="@null"
+        android:foreground="?selectableItemBackground"
+        android:padding="@dimen/dp_10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_btn_back" />
+
+    <TextView
+        android:id="@+id/tv_db_value"
+        android:layout_width="@dimen/dp_300"
+        android:layout_height="@dimen/dp_300"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_60"
+        android:background="@drawable/bg_noise_detection"
+        android:gravity="center"
+        android:text="@string/db_0"
+        android:textColor="#01aba7"
+        android:textSize="@dimen/sp_50" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_50"
+        android:gravity="center"
+        android:text="@string/detect_ambient_noise"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_24" />
+
+    <Button
+        android:id="@+id/engrave_start"
+        android:layout_width="@dimen/dp_270"
+        android:layout_height="@dimen/dp_48"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_60"
+        android:background="@drawable/bg_home_button"
+        android:enabled="true"
+        android:text="@string/start_detection"
+        android:textColor="@drawable/selector_text_button"
+        android:textSize="@dimen/sp_20" />
+</LinearLayout>

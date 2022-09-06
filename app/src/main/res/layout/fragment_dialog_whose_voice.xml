@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><!--声音选择弹窗片段-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_dialog_radius_20"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_60"
+        android:text="@string/whose_voice"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="@dimen/sp_30" />
+
+    <TextView
+        android:id="@+id/dad_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_65"
+        android:background="@drawable/bg_dialog_option_radius_25_normal"
+        android:paddingHorizontal="@dimen/dp_45"
+        android:paddingVertical="@dimen/dp_12"
+        android:text="@string/dad_"
+        android:textColor="#4ec4c1"
+        android:textSize="@dimen/sp_26"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mom_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_40"
+        android:layout_marginBottom="@dimen/dp_40"
+        android:background="@drawable/bg_dialog_option_radius_25_normal"
+        android:paddingHorizontal="@dimen/dp_45"
+        android:paddingVertical="@dimen/dp_12"
+        android:text="@string/mom_"
+        android:textColor="#4ec4c1"
+        android:textSize="@dimen/sp_26"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?><!--录音准备页-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7ff"
+    tools:context=".ui.activity.RecordingPreparationActivity">
+
+    <ImageView
+        android:id="@+id/comeback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_66"
+        android:contentDescription="@null"
+        android:foreground="?selectableItemBackground"
+        android:padding="@dimen/dp_10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_btn_back" />
+
+    <ImageView
+        android:id="@+id/iv_record_tip_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_25"
+        android:layout_marginTop="@dimen/dp_135"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_record_tip_1" />
+
+    <TextView
+        android:id="@+id/tv_record_tip1_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_10"
+        android:text="@string/ic_record_tip_tv1_1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_22"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tv_record_tip1_2"
+        app:layout_constraintStart_toEndOf="@id/iv_record_tip_1"
+        app:layout_constraintTop_toTopOf="@id/iv_record_tip_1" />
+
+    <TextView
+        android:id="@+id/tv_record_tip1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_10"
+        android:text="@string/ic_record_tip_tv1_2"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintBottom_toBottomOf="@id/iv_record_tip_1"
+        app:layout_constraintStart_toEndOf="@id/iv_record_tip_1"
+        app:layout_constraintTop_toBottomOf="@id/tv_record_tip1_1" />
+
+    <ImageView
+        android:id="@+id/iv_record_tip_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_25"
+        android:layout_marginTop="@dimen/dp_30"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_record_tip_1"
+        app:srcCompat="@drawable/ic_record_tip_2" />
+
+    <TextView
+        android:id="@+id/tv_record_tip2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_10"
+        android:text="@string/ic_record_tip_tv2_1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_22"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tv_record_tip2_2"
+        app:layout_constraintStart_toEndOf="@id/iv_record_tip_2"
+        app:layout_constraintTop_toTopOf="@id/iv_record_tip_2" />
+
+    <TextView
+        android:id="@+id/tv_record_tip2_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_10"
+        android:text="@string/ic_record_tip_tv2_2"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintBottom_toBottomOf="@id/iv_record_tip_2"
+        app:layout_constraintStart_toEndOf="@id/iv_record_tip_2"
+        app:layout_constraintTop_toBottomOf="@id/tv_record_tip2_1" />
+
+    <ImageView
+        android:id="@+id/iv_record_tip_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_25"
+        android:layout_marginTop="@dimen/dp_30"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_record_tip_2"
+        app:srcCompat="@drawable/ic_record_tip_3" />
+
+    <TextView
+        android:id="@+id/tv_record_tip3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_10"
+        android:text="@string/ic_record_tip_tv3_1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_22"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tv_record_tip3_2"
+        app:layout_constraintStart_toEndOf="@id/iv_record_tip_3"
+        app:layout_constraintTop_toTopOf="@id/iv_record_tip_3" />
+
+    <TextView
+        android:id="@+id/tv_record_tip3_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_10"
+        android:text="@string/ic_record_tip_tv3_2"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintBottom_toBottomOf="@id/iv_record_tip_3"
+        app:layout_constraintStart_toEndOf="@id/iv_record_tip_3"
+        app:layout_constraintTop_toBottomOf="@id/tv_record_tip3_1" />
+
+    <ImageView
+        android:id="@+id/iv_record_tip_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_25"
+        android:layout_marginTop="@dimen/dp_30"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_record_tip_3"
+        app:srcCompat="@drawable/ic_record_tip_4" />
+
+    <TextView
+        android:id="@+id/tv_record_tip4_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_10"
+        android:text="@string/ic_record_tip_tv4_1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_22"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tv_record_tip4_2"
+        app:layout_constraintStart_toEndOf="@id/iv_record_tip_4"
+        app:layout_constraintTop_toTopOf="@id/iv_record_tip_4" />
+
+    <TextView
+        android:id="@+id/tv_record_tip4_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_10"
+        android:text="@string/ic_record_tip_tv4_2"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintBottom_toBottomOf="@id/iv_record_tip_4"
+        app:layout_constraintStart_toEndOf="@id/iv_record_tip_4"
+        app:layout_constraintTop_toBottomOf="@id/tv_record_tip4_1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="@dimen/dp_270"
+        android:layout_height="@dimen/dp_48"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="?actionBarSize"
+        android:background="@drawable/bg_home_button"
+        android:text="@string/noise_detection"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

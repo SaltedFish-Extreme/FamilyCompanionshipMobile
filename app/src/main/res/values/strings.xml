@@ -1,0 +1,246 @@
+<resources>
+    <string name="app_name">亲情陪伴</string>
+    <string name="one">1</string>
+    <string name="common_crash_hint">应用出了点小意外，正在重新启动…</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="no_data">暂无数据，点击重试</string>
+    <string name="no_net">网络异常，点击重试</string>
+    <string name="choose_gender">请选择您的性别：</string>
+    <string name="common_loading">加载中…</string>
+    <string name="exit">再按一次退出程序</string>
+    <string name="init_sdk_error">程序出了些小问题，请重新打开</string>
+    <string name="not_grant_all_permissions">请先授予程序所需全部权限</string>
+    <string name="ever_deny_grant_permissions">被永久拒绝授权，请手动授予程序所需权限</string>
+    <string name="not_grant_partial_permissions">获取部分权限失败，请先授予程序所需全部权限</string>
+    <string name="open_detection_fail">开启检测失败！</string>
+    <string name="environmental_noise_detection">环境噪音检测中，请稍候…</string>
+    <string name="hint">提示</string>
+    <string name="no_recording_information">声音模型训练未开启，如果退出了，录音信息就没有了哦。</string>
+    <string name="confirm_submit">确认提交吗？</string>
+    <string name="first_item">当前是第一条</string>
+    <string name="re_record">重新录制</string>
+    <string name="start_recording">开始录制</string>
+    <string name="synthesis_wrong">合成出错啦</string>
+    <string name="synthetic_success">合成成功</string>
+    <string name="all_synthesized">全部故事已合成</string>
+    <string name="synthesized">已合成</string>
+    <string name="current_recording_not_successfully">当前条未录制成功</string>
+    <string name="file_exists">此文件已存在，请勿重复下载</string>
+    <string name="audition_begins">试听开始</string>
+    <string name="audition_error">试听出错：</string>
+    <string name="audition_over">试听结束</string>
+    <string name="is_playing">正在播放中</string>
+    <string name="story_synthesized">该故事已合成</string>
+    <string name="click_composite">点击合成</string>
+    <string name="composite">合成</string>
+    <string name="synthesizing">合成中…</string>
+    <string name="playing">播放中…</string>
+    <string name="synthesize_story_before_play">请先合成该故事后再进行播放！</string>
+    <string name="pause_play_first">请先暂停其他正在播放中的故事！</string>
+    <string name="play_end">播放结束</string>
+    <string name="login">登录</string>
+    <string name="splash_text">开启奇妙时刻~</string>
+    <string name="details">详细信息</string>
+    <string name="db_0">0 dB</string>
+    <string name="detect_ambient_noise">请点击按钮检测环境噪音</string>
+    <string name="detect_interruption">检测中断啦，请再试一次吧</string>
+    <string name="detect_again">重新检测</string>
+    <string name="ambient_noise_detection_failed">环境噪音检测不通过，请换安静环境再试哦。</string>
+    <string name="general_environment">环境很一般，在更安静的环境下效果更佳哦</string>
+    <string name="quiet_environment">环境很安静，开始去复刻吧</string>
+    <string name="start_copying">开始复刻</string>
+    <string name="start_detection">开始检测</string>
+    <string name="official_voice">官方声音</string>
+    <string name="exclusive_voice">专属声音</string>
+    <string name="add_voice">添加声音</string>
+    <string name="recording">录音中…</string>
+    <string name="voice_recognition">声音识别</string>
+    <string name="identifying">识别中…</string>
+    <string name="click_start_recording">点击录音</string>
+    <string name="click_start_recognition">点击识别</string>
+    <string name="record_error">抱歉，识别出错啦，请重新录制本段。</string>
+    <string name="previous">上一条</string>
+    <string name="audition">试听</string>
+    <string name="next">下一条</string>
+    <string name="message">消息</string>
+    <string name="dad">爸爸</string>
+    <string name="mom">妈妈</string>
+    <string name="grandpa">爷爷</string>
+    <string name="grandma">奶奶</string>
+    <string name="bro">哥哥</string>
+    <string name="sis">姐姐</string>
+    <string name="string_content_total">12</string>
+    <string name="string_recognize_success">太棒了，准确率：%d%%，请录制下一段吧。</string>
+    <string name="string_recognize_fail">识别率：%d%%，请重新录制本段。</string>
+    <string name="string_finish_record_tip">恭喜您，\n您已经完成了所有声音的录制。\n现在请点击下方按钮，\n开启声音模型的训练吧。\n训练成功后，\n您就可以体验到这项黑科技的\n惊喜啦。</string>
+    <string name="submit_fail_retry">提交失败，请重试。</string>
+    <string name="enable_sound_model_training">开启声音模型训练</string>
+    <string name="environmental_test">环境检测</string>
+    <string name="decibel_value">%d dB</string>
+    <string name="title">标题</string>
+    <string name="training">训练中</string>
+    <string name="sound">的声音</string>
+    <string name="using">使用中</string>
+    <string name="complete_submission">已完成提交，\n感谢您的使用。</string>
+    <string name="back_to_homepage">回到主页</string>
+    <string name="enter_account">请输入账号</string>
+    <string name="enter_user_name">请输入用户名</string>
+    <string name="enter_password">请输入密码</string>
+    <string name="enter_phone_number">请输入手机号</string>
+    <string name="story_text">故事文本故事文本</string>
+    <string name="banner_title">女声</string>
+    <string name="banner_desc">知性温柔，娴雅恬静</string>
+    <string name="record_sound">录制声音</string>
+    <string name="record_text">我正在使用恐龙贝克“留声机”录制自己的声音。体验声音复刻的黑科技，为宝宝留下声音的温暖，爱的陪伴。接下来就要正式开始录制了，这个故事叫做“小蝌蚪找妈妈”。</string>
+    <string name="story_list">故事列表</string>
+    <string name="voice_training">声音训练</string>
+    <string name="account_login">账号登录</string>
+    <string name="crash_title">应用程序发生崩溃</string>
+    <string name="crash_message">我是错误信息</string>
+    <string name="female_voice">女声</string>
+    <string name="male_voice">男声</string>
+    <string name="child_voice">童声</string>
+    <string name="female_voice_desc">知性温柔、娴雅恬静</string>
+    <string name="male_voice_desc">温文尔雅、清朗稳重</string>
+    <string name="child_voice_desc">天真童趣、活泼可爱</string>
+    <string name="noise_detection">噪音检测</string>
+    <string name="ic_record_tip_tv1_1">保持环境安静</string>
+    <string name="ic_record_tip_tv1_2">请保持周围环境安静，\n无噪音。</string>
+    <string name="ic_record_tip_tv2_1">靠近手机话筒</string>
+    <string name="ic_record_tip_tv2_2">录音时，请与手机保持\n10厘米的距离。</string>
+    <string name="ic_record_tip_tv3_1">普通话大声朗读</string>
+    <string name="ic_record_tip_tv3_2">朗读时，保持声音清晰\n感情饱满。</string>
+    <string name="ic_record_tip_tv4_1">点击按钮开始录音</string>
+    <string name="ic_record_tip_tv4_2">录音时，点击“开始录音”\n按钮后再朗读故事文本。</string>
+    <string name="twelve">12</string>
+    <string name="slash">/</string>
+    <string name="finish">完成</string>
+    <string name="record_finish">声音已全部录制完成，快点击完成开始复刻吧！</string>
+    <string name="whose_voice">这是谁的声音？</string>
+    <string name="dad_">爸 爸</string>
+    <string name="mom_">妈 妈</string>
+    <string name="quit_record_tip">正在录音中\n确定要退出录音吗</string>
+    <string name="voice_run_out_tip">专属声音已全部录制，请先删除已录制声音后再重新进行录制</string>
+    <string name="voice_train_text">即将开启自己的声音之旅</string>
+    <string name="login_fail_tip">登录失败，请检查用户名或密码是否正确！</string>
+    <string name="login_tip">请使用会员中心账号登录</string>
+    <string name="sound_management">声音管理</string>
+    <string name="mom_voice">妈妈的声音</string>
+    <string name="re_recording_prompt">开启声音训练失败，请重新录制声音</string>
+    <string name="delete_success">删除成功</string>
+    <string name="wait_training_finish">请等待声音模型训练完成后再进行播放</string>
+    <string-array name="story_text">
+        <item>在池塘边，生活着一只平凡的小灰鸭，在池塘里，生活着一只美丽的白天鹅。
+每天，小灰鸭都会对着天鹅瞧上好一会儿，因为小灰鸭觉得这只天鹅实在是太美了，洁白光滑的羽毛、纤长优雅的脖颈，它非常羡慕，做梦都想象着自己能够穿上这一身衣裳。
+有一天，天鹅出了一趟远门，于是小灰鸭游到了池塘中央，发现了天鹅散落的羽毛，它把它们穿在自己身上，打扮了一番。
+然后照天鹅的样子在天鹅中四处奔走炫耀，傲气十足地认为自己是个儒雅之士。
+天鹅识破了它的真实身份，嘲弄、讥讽之声接踵而来，一群天鹅围上来把它的装扮连同它本身的羽毛拔得一干二净，那副模样可真够吓人。
+小灰鸭想重新回到鸭同伴中躲避，但同伴们都已经认不出它了，所以把它赶出了家门。
+小灰鸭后悔极了，可是又有什么办法呢？如果当初它不那么虚荣的话，也不会落到这样的下场呀！
+</item>
+        <item>春天到了，花园里的鲜花盛开了，好香好香！鲜花开心的露出笑脸，香气四溢，蔓延在空气里、大地上。
+一只贪婪的小松鼠咪在鲜花下享受着花香，它看到一旁的小猴子也在分享花香，小松鼠生气的对小猴子说：“走开走开，这花香是我的，不许你闻！”
+小猴子说：“花香是大家的，怎么会是你一个人的呢？！”
+小松鼠霸道的把小猴子赶走，一个人在鲜花里闻着花香，鲜花收起花瓣，把花香收走了，小松鼠伤心的说：“为什么鲜花要把花香收走？”
+一旁的小猴子说：“鲜花一定是不愿意把花香送给自私的人，你太自私了小松鼠，鲜花会讨厌你的，你应该懂得分享。”
+小松鼠红羞着脸不好意思的低下头说：“对不起小猴子，花香是大家的，我们一起来分享花香吧！”
+鲜花听到小松鼠认错，开心的张开花瓣，把花香送给大家。
+小松鼠和小猴子使劲地嗅着花香，它们开心的笑了。
+</item>
+        <item>小老虎每天都会欺负别的小动物，老抢别人的玩具。
+一天，小豪猪来找小熊玩儿，发现小熊闷闷不乐的，小豪猪问：“小熊，你怎么啦？”
+小熊说：“小老虎仗着它的爸爸是森林，总是欺负我。”
+小豪猪听了，生气的说：“这只小老虎真是太可恶了，走，我帮你去教训它！”
+说着，就拉起小熊一起去找小老虎。
+小老虎正在抢小狐狸的玩具飞机呢，小豪猪看见了，赶忙站在小狐狸面前保护它，并把有刺的地方面对着小老虎，小老虎伸手来抢玩具，没想到手一下子被小豪猪的刺给刺伤，小老虎猛地缩回了手，哇哇直哭。
+这时候，小老虎的爸爸正巧来了，看见哭泣的小老虎，愤怒的说：“孩子你怎么哭了？告诉爸爸，是谁欺负你了？”
+小老虎愤愤的指着小豪猪，说：“就是它！”
+老虎大王生气的说：“你为什么要欺负我的孩子？”
+小豪猪说：“是小老虎先欺负人的，它仗着自己的爸爸是国王就整天欺负小动物们。”
+老虎大王听了，转过头问小老虎：“是这样吗？”
+没想到小老虎振振有词的说：“您是国王，我当然可以帮您教训一下它们。”
+老虎大王听了这话，说：“孩子，爸爸虽然是国王，可是更要以身作则，不能滥用职权，要为森林公民做榜样啊！我们要去帮助它们，而不是欺负它们，这样才算得上是一个好国王！”
+小老虎听了老虎国王的一番话，羞愧的低下了头，它说：“对不起，我知道错了爸爸。”
+然后它对小豪猪、小熊和小狐狸说：“对不起，请你们原谅我吧！”老虎大王欣慰的点了点头。
+</item>
+        <item>蛋壳里钻出一只小母鸡，毛茸茸的，真可爱！　
+渐渐地，小母鸡长大了，鸡妈妈教会了它捉虫子的本领，就让它自己去森林里找食物了。　
+临出门前，鸡妈妈叮嘱小母鸡说：“孩子，你要提防那些坏人，友善的对待那些好人。”　
+小母鸡问妈妈说：“那怎么样才能判断出哪些是坏人，哪些又是好人呢？”
+鸡妈妈微笑着说：“微笑的一定是好人，相反就一定是坏人。”
+小母鸡记住了妈妈的话，然后往森林走去，走着走着，看见了一只狐狸，小母鸡可从来没有见过狐狸，它不知道这只狐狸是好还是坏。
+狐狸露出邪恶的笑容，小母鸡看见狐狸的笑容，立刻高兴的跑到狐狸的身边说：“你真是一只善良的狐狸。”　
+狐狸笑嘻嘻的说：“对呀！我真的是一只非常善良的狐狸。”　
+狐狸说完，一把抓住小母鸡，将它咬死了。
+</item>
+        <item>小狼路路是一个很有恒心的武术爱好者。
+每天早晨天刚蒙蒙亮，他就准时到林子里练习拳脚功夫。　
+“嘿哈！嘿哈！”小狼路路不光是动作有模有样，呼喝声也威风凛凛。
+老虎一家就住在林子边上。每天早晨，一听见小狼路路练功夫的声音，虎妈会把虎孩子们一个个从床上拎起来：
+“快起来，锻炼身体！虎家的孩子可不能输给狼家的孩子！”　
+于是虎孩子们就赶快起床，到河边“嗵！”、“嗵！”地练习翻跟头。　
+熊一家就住在小河边。每天早晨，一听虎孩子们翻跟头的声音，熊妈就会把熊孩子们一个个从床上拎起来。
+“快起来，锻炼身体！熊家的孩子可不能输给虎家的孩子！”　
+熊孩子们只好起床，拖拖拉拉地出门去跑步，他们的眼睛还没完全睁开呢。　
+熊孩子们才不在乎会不会输给虎孩子，他们只想美美地睡个够。所以他们总是偷偷跑到卖炸糕的熊外婆家去补睡。幸好熊外婆家并不远，而且熊外婆很宠熊孩子们，从来不把这个秘密告诉熊妈。　
+每天早晨，熊外婆为她亲爱的外孙们打开门，安顿好他们去补觉，然后，就把自己的炸糕摊子摆出来。不一会儿，炸糕的香味就弥漫了整条大街。
+每天早晨，小狐狸茉茉出门去上学，路上总要买一个熊外婆的炸糕当早点吃。
+ “你不要天天吃油炸食品，对身体不好！”小狐狸茉茉的妈妈不止一次地警告她。　　
+可是小狐狸茉茉认为，熊外婆的美味炸糕是她的幸运早点，要是早晨吃不到炸糕，那这一整天准会样样事情都不称心。
+一天早晨，小狐狸茉茉出门去上学，糟糕的事情发生了，熊外婆的炸糕摊子竟然还没有摆出来！
+没办法，小狐狸茉茉只好买了一个果酱包当早点。
+结果这一天，小狐狸茉茉果然样样事情都不称心。写生字时折断了铅笔，做值日时弄脏了裙子，上课的时候老师偏偏问她不会回答的问题。
+最最让小狐狸茉茉觉得不称心的是，好朋友小狼路路生病了，不能来上学。小狼路路不在，小狐狸茉茉觉得怪寂寞的。
+直到放学回家的时候，小狐狸茉茉还是无精打采。　
+“小狐狸茉茉，你怎么这么没精神？”走过熊外婆的炸糕摊子时，熊外婆叫住了她。
+“熊外婆，你今天为什么很晚才出摊呀？”小狐狸茉茉问。　
+“噢，因为我睡过头了。平时都是熊孩子们出来跑步的时候把我叫醒的，可今天他们没有来。”熊外婆回答。　
+可是熊孩子为什么没有起床跑步呢？小狐狸茉茉还是很纳闷。她刨根问底的脾气上来了，决定去弄个明白。于是她向熊家跑去。　
+很快，小狐狸茉茉就弄明白了：　
+熊孩子今天没有跑步，那是因为虎孩子没有到河边翻跟头。　
+虎孩子没有到河边翻跟头，那是因为小狼路路没有到林子里练武术。　　
+小狼路路没有到林子里练武术，当然是因为他今天生病了。　
+第二天早晨，小狐狸茉茉出门的时候心里还挺不安的，但一阵风吹来，熊婆婆的炸糕香味远远的飘进她的鼻孔，茉茉的心立刻欢快地跳起来。　　
+小狐狸茉茉一口气冲进教室里，果然，小狼路路已经在座位上了，他的病完全好了。　
+看着小狼路路的笑脸，小狐狸茉茉心里的话忍不住脱口而出：“你知道吗？你是全世界最棒最酷的小狼路路，我们永远永远都是好朋友！”
+</item>
+        <item>夏季的一天，在河岸边的树阴下，坐着一个人，他看着河里的一大群鸭子。　
+过了不久，一根树枝漂到这群鸭子中间。那树枝还带着叶儿。鸭子们被惊吓得立即都展翅飞了起来。在空中，它们盘旋了几秒钟，随后落在了那觅食的地方。可是过了不久，又一根树枝从远处漂了过来，又漂到它们中间。哦，这群可怜的鸭子，不得不再一次惊魂未定地从河面上飞了起来。不过，很快，它们发觉那漂来的树枝，根本就不会伤害它们。于是，它们重新落在了水面上。　
+接着又有三四根树枝，漂到它们身边来。不过，鸭子们此时已经不在乎了。后来，它们都被那些树枝撞着了身子，也都毫不介意，再懒得飞起来了。
+岸边，那个一直在静静地关注的人，此刻心中产生了疑惑。他想那些漂来的树枝到底怎么回事？是有人故意将树枝扔进河里吗？为了弄清楚原因，他的目光投向了那水流过来的方向。哦，不是人在捣乱，而是一只狐狸，正在狡猾地、贪恋地、死死地盯着鸭子。“下一步，它想干什么？”这个人禁不住想。
+是的，鸭子们已经是彻底不再惧怕水面上不断漂来的树枝了。这一情况被狐狸确定之后，它就去找来一根大树枝。然后它偷偷地伸展在树枝上面，隐藏起自己，随着大树枝一起向毫无戒备的鸭子们漂来了。
+狡猾的老狐狸，慢慢地漂到了鸭群中间。它猛然抬起头，露出大牙，向鸭群左咬右咬，进行猛烈地侵袭。两只肥美的小鸭子，首先成了它的.攻击目标。它一口叼上它们，就匆忙地逃走了。其余的鸭子被吓得尖叫着飞走了。很久，它们都没敢再飞回到这儿来。　
+哦，大家现在明白了吧，这只狐狸呀，真是既狡猾，又有耐心，最后，它终于得到一顿美餐。
+</item>
+        <item>从前，在一片美丽的花丛中正飞舞着一只漂亮的花蝴蝶，在花儿的映衬下，她的翅膀像一条五彩裙，比花儿还美丽。可是，后来由于人们的破坏和污染，美丽的花丛变成了垃圾站，肮脏的废品扔的到处都是，蝴蝶无处藏身，只好排完卵离开了。……
+过了不久，有两条毛毛虫小青和小绿早出生了，他们的身体碧绿碧绿的，特别可爱。但是垃圾场里的人们谁都不会注意到这两个微不足道的小家伙。毛毛虫肚子饿的时候，需要吃草叶，可是这里的草都不新鲜，还有许多苍蝇嗡嗡地乱叫，毛毛虫实在忍受不住了，就准备离开这里。可是他们爬呀爬呀，爬得多慢呀，于是就在摘了两朵蒲公英的小伞，借着风力开始远途旅行。来到了一个新的地方。毛毛虫小青说：“看那里有片草地呢，那里的草既鲜又嫩，我们吃成蛹都没有问题”。另一只毛毛虫小绿说：“行呀，我们就停在这儿吧”。可风儿捣起鬼来了。毛毛虫刚停在草地上，风儿就把他们吹上了天空。小绿说：“咱们又要找新家了，其实我们真舍不得这片碧绿的草地上啊！”小青说：“是啊，如果你不怕的话咱们就跳下去吧？”
+他们就鼓起勇气扔掉小伞向下跳去。但是没有跳在草地上，而是跳在了草地附近的一颗大树上，而且不偏不歪地压在了一只大知了的身上，大知了感到不舒服，于是嗡地一下飞了起来，把毛毛虫留在了原地。可是知了产下了一堆卵，小毛毛虫不喜欢吃知了的树叶，于是他们就爬下了树，爬到了草地上，它们就每天在这里吃呀吃呀，吃的又肥又大，吃成了大毛毛虫。　
+现在草地上有些枯黄了，秋天快要到来了，两条毛毛虫要在一起去吐丝化蛹了，他们来到了一处空地，挖了一个坑准备结蛹了，突然有一只奇奇怪怪的虫子，把它们的坑霸占了，毛毛虫们只好又挖了一个坑，这次没有什么虫子来霸占他们了。他们来到了洞里，把洞口填上吐出了一层一层的细丝，把自己裹得严严实实的，那样子就像装满棉花的封口布袋。他们安安静静地睡着了。……
+到了第二年春天，草地上长出来的草是嫩绿嫩绿的，可爱极了，还有几朵美丽的野花在点缀着草地。草地上变得热闹起来了，两条毛毛虫终于变成了两只美丽的花蝴蝶，他们把蛹咬开，钻了出来，从土里爬了出来，抖抖身上的灰尘，展开两只漂亮的翅膀飞上空中。他们和小昆虫们在一起翩翩起舞，美丽极了。
+</item>
+        <item>小花猫和小白兔是邻居，它们还是一对好朋友呢。今天它们俩可高兴了，因为它们的妈妈让它们去买东西。小花猫拿着妈妈给的钱，兴高采烈地向家的东边走去，它要去买小鱼。小白兔拿着妈妈给的钱，一蹦一蹦地向家的西边走去，它要去买大萝卜。　
+小花猫走着走着，花蝴蝶飞来了，多漂亮的蝴蝶啊，小花猫看了真喜欢，忍不住就伸手去抓蝴蝶，花蝴蝶你不要走，我来跟你玩，等等我。小花猫追着花蝴蝶跑远了，早把妈妈叫它买鱼的事忘得一干二静了，而且还把买鱼的钱掉到了路边的草丛里。　
+小花猫追着花蝴蝶越跑越远，等它跑累了停下来时，才发现手里的钱不见了，在回头一看：“糟糕，这是什么地方啊？”小花猫这下可着急了，买鱼的钱丢了，还迷了路，这颗怎么办？呜呜呜，小花猫急得哭了起来。
+黑狗警察听到哭声，连忙过来询问原因。小花猫哭着把事情的经过告诉了它，黑狗警察听了连忙安慰小花猫：“小花猫别着急，我来送你回家，以后可不能贪玩了。”小花猫点点头，跟着黑狗警察回家去。
+到家门时，刚好碰到小白兔，两手空空的小花猫很惭愧。它为什么惭愧呢？哦，因为小白兔在半路时看到蜻蜓了，它也很喜欢，但它没去追去买萝卜了，所以小花猫看看拿着大萝卜的小白兔，难为情地地下了头。
+</item>
+        <item>小花狗生病了，大伙儿带来了最好的玩具，希望能够给小花狗解解闷儿。　
+小猫咪咪也来了。小黑猪偷眼看咪咪，咪咪的手里什么也没有。大伙儿开始送玩具了。哇，有遥控飞碟，有声控老鼠，还有精致华贵得让人不敢碰的小轿车……轮到咪咪了。　
+大伙儿都把眼睛瞪得大大的，看着咪咪空空的两手。小黑猪更是眼睛一眨也不眨。没想咪咪却说：“大伙儿都把眼睛闭上，我才好把玩具拿出来！”
+大伙儿互相看看，只好把睁大的眼睛闭上。
+一会儿，咪咪说：“睁开吧。”小黑猪睁眼一瞧，咪咪手里捧着个花花绿绿的小东西，毛茸茸的，又有趣又可爱。大伙儿都把脖子伸得长长的，想看个清楚。　
+咪咪手里的小东西十分灵活，东一蹦，西一跳，总往咪咪身后跑。咪咪想抓住它，可转了一百圈还是没抓住。急得咪咪直朝大家吐舌头，那副滑稽相，逗得小花狗他们哈哈大笑。　
+表演结束了，大伙争着问咪咪玩具是从哪儿买来的。
+这时，咪咔从地上站起来，拍拍裙子说：“这个玩具一分钱也没花，它就是我自己的尾巴呀！”
+啊，大伙儿谁也没想到！　
+咪咪说：“这个玩具是我为小花狗精心设计的。我在尾巴上涂了颜色，卷成彩球的样子。看见小花狗那么开心地笑，我真高兴！”　
+躺在床上的小花狗说：“谢谢你，咪咪，你真好！”　　
+小黑猪不好意思地搔搔头，嘿嘿地笑着说：“咪咪，可真有你的！这玩具可真有趣呀”。
+</item>
+        <item>有个年轻人整天抱怨自己太穷，什么财富都没有。　
+一天，一个老石匠从他家门口路过，听到了他的抱怨，就对他说：“你抱怨什么呀？其实，你有最大的财富！”
+年轻人惊讶地问：“我有什么财富？”老石匠说：“你有一双眼睛，你只要献出一只，就可以得到你想要的任何东西，年轻人说什么也不献。老石匠叉说：”让我砍掉你的一双手吧，你可以得到许多黄金！“年轻人更是不能同意了。老石匠说：”现在你明白了吧，人最大的财富是他的健康和精力，这是用多少饯都买不到的。“这个故事讲的是：健康的体魄和旺盛的精力，是人的最大财富。
+</item>
+    </string-array>
+</resources>

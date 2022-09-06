@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!--退出录音弹窗片段-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_dialog_radius_20"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_60"
+        android:gravity="center"
+        android:text="@string/quit_record_tip"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="@dimen/sp_30" />
+
+    <ImageView
+        android:id="@+id/quit_sure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_40"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/btn_quit_sure" />
+
+    <ImageView
+        android:id="@+id/quit_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/dp_30"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/btn_quit_cancel" />
+
+</LinearLayout>
